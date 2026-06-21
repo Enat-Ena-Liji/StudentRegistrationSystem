@@ -1,0 +1,168 @@
+/* Main Application Styles */
+.root {
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    -fx-background-color: white;
+    -fx-padding: 20 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 10, 0, 0, 5);
+}
+
+/* Button Styles */
+.add-button, .save-button {
+    -fx-background-color: linear-gradient(to right, #27ae60, #2ecc71);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 12 25;
+    -fx-background-radius: 25;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.add-button:hover, .save-button:hover {
+    -fx-background-color: linear-gradient(to right, #219a52, #27ae60);
+}
+
+/* Search Field */
+.search-field {
+    -fx-padding: 10;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+    -fx-font-size: 13px;
+}
+
+.search-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.3), 5, 0, 0, 0);
+}
+
+/* Table Styles */
+.custom-table {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.custom-table .column-header-background {
+    -fx-background-color: #34495e;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.custom-table .column-header {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 12;
+}
+
+.custom-table .column-header .label {
+    -fx-text-fill: white;
+}
+
+.custom-table .table-row-cell {
+    -fx-border-color: #ecf0f1;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8;
+}
+
+.custom-table .table-row-cell:selected {
+    -fx-background-color: #3498db20;
+}
+
+.custom-table .table-row-cell:hover {
+    -fx-background-color: #f8f9fa;
+}
+
+/* Department Badges */
+.dept-cs { -fx-background-color: #3498db; }
+.dept-eng { -fx-background-color: #e74c3c; }
+.dept-bus { -fx-background-color: #2ecc71; }
+.dept-math { -fx-background-color: #f39c12; }
+.dept-phy { -fx-background-color: #9b59b6; }
+.dept-chem { -fx-background-color: #1abc9c; }
+
+/* Action Buttons */
+.action-button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6 12;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-font-size: 11px;
+}
+
+.action-button:hover {
+    -fx-opacity: 0.9;
+}
+
+/* Pagination */
+.pagination-bar {
+    -fx-background-color: white;
+    -fx-padding: 15 20;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1 0 0 0;
+}
+
+.pagination-button {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-padding: 6 12;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+}
+
+.pagination-button:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Form Styles */
+.form-field {
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+}
+
+.form-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.3), 5, 0, 0, 0);
+}
+
+/* Responsive Grid */
+.form-grid {
+    -fx-background-color: transparent;
+}
+
+/* Alert Dialog */
+.alert-dialog {
+    -fx-background-color: white;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+/* Add to existing styles.css */
+
+/* Student ID Column */
+.student-id-column {
+    -fx-alignment: CENTER;
+    -fx-font-family: 'Monospaced';
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Form field for Student ID (readonly) */
+.student-id-field {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: #2c3e50;
+    -fx-font-family: 'Monospaced';
+    -fx-font-weight: bold;
+}
